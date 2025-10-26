@@ -12,8 +12,5 @@ tempfile = "3.10"
 ctrlc = "3.4"
 libc = "0.2"
 
-# reqwest with rustls (no OpenSSL, fully static)
 reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
-
-# git2 built with vendored libgit2, no system libs required
 git2 = { version = "0.19", default-features = false, features = ["vendored-libgit2"] }
