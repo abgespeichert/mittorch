@@ -1,0 +1,11 @@
+{
+  "account": "abgespeichert",
+  "repository": "mittorch-flask",
+  "branch": "main",
+  "token": "",
+
+  "interval": 5,
+
+  "start-command": "./scripts/start.sh",
+  "stop-command": "./scripts/stop.sh"
+}
